@@ -1,0 +1,7 @@
+// _body.scss
+body {
+    font-family: $font-family;
+    @include flex-center;
+    margin: 0;
+    background-color: $gray;
+}

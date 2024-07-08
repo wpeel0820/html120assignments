@@ -1,0 +1,33 @@
+// _info.scss
+.info {
+  @include grid-area(1, 2, 2, 3);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: $gray;
+  padding: $info-padding;
+
+  h3 {
+    font-size: 1em;
+    @include text-color($text-color);
+  }
+
+  p {
+    @include text-color($darkgray);
+  }
+
+  a {
+    display: inline;
+    align-items: center;
+    @include text-color($darkgray);
+    text-decoration: none;
+  }
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+  
